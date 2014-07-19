@@ -19,5 +19,9 @@ group :development, :test do
   gem 'rspec-rails', '~> 2.14.0'
 end
 
+group :test do
+  gem 'shoulda-matchers', '~> 2.6.2'
+end
+
 # Use unicorn as the app server
 # gem 'unicorn'
