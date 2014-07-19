@@ -1,6 +1,4 @@
-class Artist < ActiveRecord::Base
-  protect_from_forgery
-  
+class Artist < ActiveRecord::Base  
   has_secure_password
   has_many :songs
 
