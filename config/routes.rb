@@ -8,6 +8,9 @@ Rails.application.routes.draw do
   resources :users
   resources :artists
 
+  get '/signup' => 'application#signup'
+
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
