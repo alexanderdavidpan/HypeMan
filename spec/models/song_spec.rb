@@ -6,4 +6,6 @@ describe Song do
   it { should have_many(:favorites) }
 
   it { should have_many(:users).through(:favorites) }
+
+  it { should validate_presence_of(:title) }
 end
