@@ -1,5 +1,9 @@
 require 'spec_helper'
 
 describe Song do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it { should belong_to(:artist) }
+
+  it { should have_many(:favorites) }
+
+  it { should have_many(:users).through(:favorites) }
 end
