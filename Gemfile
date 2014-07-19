@@ -10,6 +10,7 @@ gem 'turbolinks', '~> 2.2.2'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bcrypt', '~> 3.1.7'
+gem 'foundation-rails', '~> 5.3.1.0'
 
 group :development do
   gem 'spring', '~> 1.1.3'
