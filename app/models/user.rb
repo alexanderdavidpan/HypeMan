@@ -1,4 +1,6 @@
 class User < ActiveRecord::Base
+  protect_from_forgery
+  
   has_secure_password
   has_many :favorites
   has_many :songs, through: :favorites
