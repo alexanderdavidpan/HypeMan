@@ -5,6 +5,8 @@ describe User do
 
   it { should have_many(:favorites)}
 
+  it { should have_many(:songs).through(:favorites)}
+
   it { should validate_uniqueness_of(:username) }
 
   it { should validate_presence_of(:username) }
