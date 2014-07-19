@@ -1,4 +1,4 @@
 HypeMan
 =======
 
-HypeMachine clone, but users can upload their own song.
+Artists upload their own songs, which are voted by users.
