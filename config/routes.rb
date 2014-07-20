@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
   resources :users
   resources :artists
-
+  resources :songs
   get '/signup' => 'application#signup'
 
 
