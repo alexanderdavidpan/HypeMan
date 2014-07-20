@@ -1,6 +1,7 @@
 class SongsController < ApplicationController
   def index
-    @songs = AWS::S3::Bucket.find(BUCKET).objects
+    s3 = AWS::S3.new
+    @songs = s3.buckets["hypemanmusic"].objects
   end
 
   def upload
