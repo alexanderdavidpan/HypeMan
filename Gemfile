@@ -11,7 +11,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bcrypt', '~> 3.1.7'
 gem 'foundation-rails', '~> 5.3.1.0'
-gem 'aws-s3', '~> 0.6.3', :require => 'aws/s3'
+gem 'aws-sdk', '~> 1.0', :require => 'aws-sdk'
 
 group :development do
   gem 'spring', '~> 1.1.3'
